@@ -1,0 +1,66 @@
+#home {
+    display: flex;
+    padding-inline: 8vw;
+
+    .section-left {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10rem;
+        align-items: flex-start;
+
+        h1 {
+            font-size: 2rem;
+
+            span {
+                font-size: 2rem;
+            }
+        }
+
+
+        h2 {
+            margin-top: -1vw;
+            font-size: 1.5rem;
+
+            span {
+                font-size: 1.5rem;
+            }
+        }
+
+        p {
+            margin-top: -0.7vw;
+            font-style: normal;
+            width: 60%;
+        }
+
+        .portfolio {
+            background: $secondary-color;
+            padding: 1vw;
+            border-radius: 6px;
+        }
+
+    }
+
+    .section-right {
+        position: relative;
+
+        img {
+            height: 40vw;
+            position: absolute;
+            left: 11vw;
+        }
+
+    }
+
+    .triangle { 
+        height: 20rem;
+        width: 200rem;
+        transform: rotate(-17deg);
+        background: $secondary-color;
+        position: absolute;
+        left: -20vw;
+        bottom: -4vw;
+        
+        
+
+    }
+}

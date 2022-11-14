@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 8vw;
+    .nav-left {
+
+
+        .icon {
+            color: $secondary-color;
+            width:2rem;
+            height:2rem;
+        }
+
+        color: white;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        span{
+            color: $secondary-color;
+        }
+
+    }
+
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+
+        a {
+            font-weight: 600;
+            color: $secondary-color;
+        }
+
+    }
+
+
+}
