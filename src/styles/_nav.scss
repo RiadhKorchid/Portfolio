@@ -2,7 +2,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 8vw;
+    padding:1.5rem 8vw;
+    padding-top: 2rem;
     .nav-left {
 
 
@@ -12,7 +13,7 @@ nav {
             height:2rem;
         }
 
-        color: white;
+        color: $third-color;
         font-weight: 600;
         display: flex;
         align-items: center;
@@ -27,7 +28,7 @@ nav {
     .nav-right {
         display: flex;
         align-items: center;
-        gap: 2.5rem;
+        gap: 2rem;
 
         a {
             font-weight: 600;

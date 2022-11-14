@@ -8,5 +8,6 @@ export default function () {
     return (<>
 <Nav/>
 <Home/>
+
     </>)
 }
