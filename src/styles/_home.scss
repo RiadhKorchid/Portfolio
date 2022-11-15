@@ -5,16 +5,16 @@
     align-items: center;
     overflow: hidden;
     position: relative;
+   
 
-
-    .section-left {
+    .home-left {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         width: 50%;
         min-height:calc(80vh - 86px);
-
         .container {
+            
             color: $third-color;
             display: flex;
             flex-direction: column;
@@ -58,7 +58,7 @@
 
     }
 
-    .section-right {
+    .home-right {
         width: 50%;
         height: calc(100vh - 86px);
         display: flex;

@@ -3,7 +3,7 @@ import pic from "./riadhpic.png"
 export default function () {
     return (<>
         <section id="home" >
-            <div className="section-left">
+            <div className="home-left">
                 <div className="container">
                     <h1>I'm <span>Riadh Korchid</span></h1>
                     <h2><span>Frontend</span> Developer</h2>
@@ -15,7 +15,7 @@ export default function () {
                 </div>
 
             </div>
-            <div className="section-right">
+            <div className="home-right">
                 <img src={pic} />
             </div>
             <div className="triangle"></div>
