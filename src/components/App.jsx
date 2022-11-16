@@ -10,9 +10,9 @@ export default function () {
 return (<>
 <Nav/>
 <Home/>
-<Contact/>
 <Skills/>
 <Projects/>
+<Contact/>
 <Footer/>
 
     </>)

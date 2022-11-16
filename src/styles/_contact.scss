@@ -9,12 +9,13 @@
         justify-content: center;
 
         .h1 {
-
+            font-size: 1.5rem;
             font-weight: 700;
             color: $secondary-color;
         }
 
         .h2 {
+            font-size: 1.1rem;
             display: flex;
             align-items: center;
             color: $third-color;

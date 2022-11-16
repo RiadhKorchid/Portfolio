@@ -8,14 +8,15 @@ import { FaHtml5 } from "react-icons/fa"
 import { SiTypescript } from "react-icons/si"
 import { SiRedux } from "react-icons/si"
 import { SiFigma } from "react-icons/si"
-
+import {SiMongodb} from "react-icons/si"
+import {FaGitAlt} from "react-icons/fa"
 
 export default function () {
     return (
         <div className="skills">
             <div className="skills-header">
                 <div className="h1">Skills</div>
-                <div className="h2">technologies i've used</div>
+                <div className="h2">Technologies i've used</div>
             </div>
             <div className="skills-body">
                 <div className="skills-left">
@@ -28,13 +29,14 @@ export default function () {
                     <SiTypescript className="icon"/>
                     <SiRedux className="icon"/>
                     <SiFigma className="icon"/>
+                    <FaGitAlt className="icon"/>
+                    <SiMongodb className="icon" />
                 </div>
                 <div className="skills-right">
                     <h1>More about me</h1>
-                    <p>My name is Korchid Riadh and i'm mainly a frontend web developer with over 2 years of experience .
-                         I'm really passionate about making good-looking responsive websites from scratch .
-                         I'm currently learning UI / UX Design ,
-                         Backend Development and Mobile Development</p>
+                    <p>My name is Riadh korchid and I’m a Frontend Developer from tunisia .
+                         I really love making responsive websites .
+                         Below are the technologies I’m most familiar with but I’m always open to learning new technologies.</p>
                 </div>
             </div>
         </div>
