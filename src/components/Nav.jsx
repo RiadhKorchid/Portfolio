@@ -42,9 +42,9 @@ export default function () {
                 <a href="#contact" id="Contact">Contact</a>
             </div>
             <div className="bars" onClick={show}>
-                <div className="bar"></div>
-                <div className="bar"></div>
-                <div className="bar"></div>
+                <div className="bar" id="bar1"></div>
+                <div className="bar" id="bar2"></div>
+                <div className="bar" id="bar3"></div>
             </div>
         </nav>
     )

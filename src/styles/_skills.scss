@@ -74,7 +74,7 @@
             font-weight: 700;
         }
         p{
-            line-height: 2rem;
+            line-height: 3rem;
             font-size: 1.3rem;
             color: $third-color;
           font-weight: 400;
@@ -85,16 +85,34 @@
 @media(max-width: 640px)
 {
     .skills{
+
+        .skills-header{
+            margin-bottom:2rem ;
+        }
         .skills-body{
             
             flex-direction: column;
+            
             .skills-left{
                 width:100%;
                 grid-template-columns: repeat(3,1fr) ;
+                gap: 4rem;
+                .icon{
+                   height:2rem;
+                   width:4rem;
+                }
 
             }
             .skills-right{
                 width: 100%;
+                
+                p{
+                    margin-top: 1rem;
+                    line-height: 3rem;
+                    font-size: 1rem;
+                    font-weight: 500;
+
+                }
             }
 
 
