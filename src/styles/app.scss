@@ -5,6 +5,11 @@ $secondary-color :#ff9901;
 $third-color:#666;
 $fourth-color: #ffffff;
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top:100px;
+}
+
 body {
     height: 100%;
     width: 100%;

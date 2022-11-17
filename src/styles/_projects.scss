@@ -1,7 +1,7 @@
 .projects {
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 88px);
+    min-height: calc(100vh - 72px);
 
     .projects-header {
 
@@ -50,7 +50,7 @@
     }
 
     .projects-body {
-        min-height: calc(90vh - 88px);
+        min-height: calc(90vh - 72px);
         padding: 2rem;
         padding-inline: 8vw;
         display: grid;
@@ -62,4 +62,11 @@
     }
 
 
+}
+@media(max-width:640px){
+    .projects{
+        .projects-body{
+            grid-template-columns: 1fr;
+        }
+    }
 }

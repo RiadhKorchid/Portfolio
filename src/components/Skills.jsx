@@ -13,7 +13,7 @@ import {FaGitAlt} from "react-icons/fa"
 
 export default function () {
     return (
-        <div className="skills">
+        <section className="skills" id="skills">
             <div className="skills-header">
                 <div className="h1">Skills</div>
                 <div className="h2">Technologies i've used</div>
@@ -39,7 +39,7 @@ export default function () {
                          Below are the technologies I’m most familiar with but I’m always open to learning new technologies.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 
 }

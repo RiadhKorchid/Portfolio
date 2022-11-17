@@ -1,5 +1,5 @@
 .contact {
-    min-height: calc(100vh - 88px);
+    min-height: calc(100vh - 72px);
 
     .contact-header {
         min-height: 10vh;
@@ -33,7 +33,7 @@
     }
 
     .contact-body {
-        min-height: calc(90vh - 80px);
+        min-height: calc(90vh - 72px);
         padding-inline: 8vw;
         display: flex;
         justify-content: flex-start;
@@ -110,5 +110,19 @@
 
         }
 
+    }
+}
+@media(max-width:640px){
+    .contact
+    {
+        .contact-body{
+            flex-direction: column;
+            .contact-left{
+                width: 100%;
+            }
+            .contact-right{
+                width: 100%;
+            }
+        }
     }
 }

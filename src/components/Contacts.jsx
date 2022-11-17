@@ -3,7 +3,7 @@ import{BsFillTelephoneFill} from'react-icons/bs';
 import {MdEmail}from "react-icons/md"
 import{MdLocationOn}from "react-icons/md"
 export default function () {
-    return (<div className="contact">
+    return (<section className="contact" id="contact" >
         <div className="contact-header">
             <div className="h1">Contact</div>
             <div className="h2"><div></div> Get in touch <div></div></div>
@@ -25,6 +25,6 @@ export default function () {
             <MdLocationOn className="icon"/><p>Tunisia</p>
         </div>
 </div>
-    </div>
+    </section>
     )
 }

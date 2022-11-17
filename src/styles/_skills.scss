@@ -1,5 +1,5 @@
 .skills {
-    min-height: calc(100vh - 88px);
+    min-height: calc(100vh - 72px);
     padding-inline:8vw ;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
         display: flex;
          flex-direction: column;
          align-items: center;
+         justify-content: center;
          .h1{
             font-size: 1.5rem;
             color: $secondary-color;
@@ -48,7 +49,7 @@
     .skills-body{
         display: flex;
         align-items: center;
-        min-height: calc(90vh - 88px);
+        min-height: calc(90vh - 72px);
         gap: 2rem;
         
        .skills-left{
@@ -79,5 +80,24 @@
           font-weight: 400;
         }
        }
+    }
+}
+@media(max-width: 640px)
+{
+    .skills{
+        .skills-body{
+            
+            flex-direction: column;
+            .skills-left{
+                width:100%;
+                grid-template-columns: repeat(3,1fr) ;
+
+            }
+            .skills-right{
+                width: 100%;
+            }
+
+
+        }
     }
 }
