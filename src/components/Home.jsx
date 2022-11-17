@@ -18,7 +18,6 @@ export default function () {
             <div className="home-right">
                 <img src={pic} />
             </div>
-            <div className="triangle"></div>
         </section>
 
     </>)
