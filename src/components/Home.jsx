@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "./riadhpic.png"
+import pic from "../image/riadhpic.png"
 export default function () {
     return (<>
         <section id="home" >
@@ -10,15 +10,12 @@ export default function () {
                     <p>I will help you create an amazing website for your business!</p>
                     <div className="portfolio">Portfolio</div>
                 </div>
-                <div>
-                    
+                <div>     
                 </div>
-
             </div>
             <div className="home-right">
                 <img src={pic} />
             </div>
         </section>
-
     </>)
 }
