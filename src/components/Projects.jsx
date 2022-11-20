@@ -35,7 +35,7 @@ export default function () {
                         <FaReact className="icon" color="#66D2EF" />
                     </div>
                     <div className="icons">
-                        <FaEye className="icon" />
+                      <a href="https://spiffy-otter-42d24c.netlify.app/">  <FaEye className="icon" /></a>
                         <FaGithub className="icon" />
                     </div>
                 </div>
