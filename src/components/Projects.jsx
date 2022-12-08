@@ -12,7 +12,7 @@ import { SiRedux } from "react-icons/si"
 import { SiFigma } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
-import carentallImage  from "../image/rentalcars.png"
+import carentallImage  from "../image/rentalcars-image.png"
 import easybankImage from "../image/easybank-landing-page-image.png"
 import productMainPageImage from "../image/product-page-main.png"
 
