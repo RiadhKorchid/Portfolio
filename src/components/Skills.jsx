@@ -14,12 +14,13 @@ import {FaGitAlt} from "react-icons/fa"
 export default function () {
     return (
         <section className="skills" id="skills">
-            <div className="skills-header">
+            <div className="skills-header" data-aos="fade-down" data-aos-duration ="700">
                 <div className="h1">Skills</div>
                 <div className="h2">Technologies i've used</div>
             </div>
             <div className="skills-body">
-                <div className="skills-left" color="">
+         
+            <div className="skills-left" data-aos="fade-right"  data-aos-duration ="700" >
                     <FaHtml5 className="icon" color="#F25320"/>
                     <FaCss3Alt className="icon" color="#279FD5" />
                     <FaJs className="icon" color="#E4D04B"/>
@@ -31,7 +32,7 @@ export default function () {
                     <FaGitAlt className="icon" color="#E44C30"/>
                     <SiMongodb className="icon" color="#449E45" />
                 </div>
-                <div className="skills-right">
+                <div className="skills-right" data-aos="fade-left" data-aos-duration ="700">
                     <h1>About me</h1>
                     <p>My name is Riadh korchid and I’m a Frontend Developer from tunisia .
                          I really love making responsive websites .

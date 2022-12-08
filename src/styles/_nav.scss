@@ -47,7 +47,6 @@ nav {
             font-weight: 600;
             color: $secondary-color;
             position: relative;
-
             &::before {
                 content: "";
                 position: absolute;
@@ -61,7 +60,6 @@ nav {
                 transition: 0.4s;
 
             }
-
             &:hover {
                 &::before {
                     visibility: visible;

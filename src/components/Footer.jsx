@@ -7,9 +7,9 @@ export  default  function () {
       <footer>
         <p>for more information , Follow me on :</p>
         <div className="icons">
-        <a href=""><SiFacebook className="icon"/></a>
-        <a href=""><SiLinkedin className="icon"/></a>
-        <a href=""><SiGithub className="icon"/></a>
+        <a href="https://www.facebook.com/kourchid.riadh.1"><SiFacebook className="icon"/></a>
+        <a href="https://www.linkedin.com/in/riadh-korchid-1b7396239/"><SiLinkedin className="icon"/></a>
+        <a href="https://github.com/RiadhKorchid"><SiGithub className="icon"/></a>
        </div>
        <p>Copyright &copy; Riadh Korchid All rights reserved</p>
       </footer>

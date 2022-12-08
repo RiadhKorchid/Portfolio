@@ -25,7 +25,7 @@ export default function () {
 
     return (
         <nav>
-            <div className="nav-left">
+            <div className="nav-left" >
                 <FaNodeJs className="icon" />
                 <p> Riadh<span> Korchid</span></p>
             </div>

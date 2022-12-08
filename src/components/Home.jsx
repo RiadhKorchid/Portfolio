@@ -2,8 +2,8 @@ import React from "react";
 import pic from "../image/riadhpic.png"
 export default function () {
     return (<>
-        <section id="home" >
-            <div className="home-left">
+        <section id="home"  >
+            <div className="home-left" data-aos="fade-left" data-aos-duration="1000">
                 <div className="container">
                     <h1>I'm <span>Riadh Korchid</span></h1>
                     <h2><span>Frontend</span> Developer</h2>
@@ -13,7 +13,7 @@ export default function () {
                 <div>     
                 </div>
             </div>
-            <div className="home-right">
+            <div className="home-right" data-aos="fade-right" data-aos-duration="1000">
                 <img src={pic} />
             </div>
         </section>
