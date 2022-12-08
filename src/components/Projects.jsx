@@ -1,4 +1,7 @@
 import React from "react";
+import easybankImage from "../image/easybank-landing-page-image.png"
+import carentallImage  from "../image/rentalcars-image.png"
+import productMainPageImage from "../image/product-page-main.png"
 import { FaGithub } from "react-icons/fa";
 import { FaEye } from "react-icons/fa"
 import { FaReact } from "react-icons/fa"
@@ -12,9 +15,7 @@ import { SiRedux } from "react-icons/si"
 import { SiFigma } from "react-icons/si"
 import { SiMongodb } from "react-icons/si"
 import { FaGitAlt } from "react-icons/fa"
-import carentallImage  from "../image/rentalcars-image.png"
-import easybankImage from "../image/easybank-landing-page-image.png"
-import productMainPageImage from "../image/product-page-main.png"
+
 
 
 export default function () {
