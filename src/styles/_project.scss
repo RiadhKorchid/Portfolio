@@ -11,7 +11,7 @@
 
     
     h1 {
-        color: $secondary-color;
+        color: $primary-color;
         font-weight: 700;
         text-align: center;
     }
@@ -28,7 +28,7 @@
         justify-content: center;
         gap: 1rem;
         .icon {
-            color: $third-color;
+            color: $secondary-color;
             height: 2.5rem;
             width: 2.5rem;
         }
@@ -38,6 +38,7 @@
         justify-content: center;
         gap: 1rem;
         .icon{
+         
             height: 2rem;
             width: 2rem;
         }

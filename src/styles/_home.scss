@@ -66,7 +66,6 @@
         align-items: flex-start;
         justify-content: flex-end;
 
-
         img {}
 
     }
@@ -85,18 +84,19 @@
 
 
 @media(max-width:640px) {
-
+ 
     #home {
         display: flex;
         flex-direction: column;
         align-items: center;
         min-height: 0vh;
+        
         .home-right {
-            width: 100%;
+            width:100%;
             min-height: 0vh;
-            justify-content: center;
+            padding: 1rem;
             img{
-                transform:scale(0.7) ;
+                width: 100%;
             }
 
         }
@@ -107,12 +107,25 @@
 
             .container {
                 h1 {
-                    font-size: 1.5rem;
+                    width: 100%;
+                    font-size: 2rem;
 
                     span {
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                     }
                 }
+                h2{
+                    width:100%;
+                    font-size:1.5rem;
+                    span{
+                        font-size: 1.5rem;
+                    }
+
+                }
+                p{
+                    width: 100%;
+                }
+           
             }
         }
     }

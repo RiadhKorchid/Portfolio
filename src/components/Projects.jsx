@@ -1,7 +1,7 @@
 import React from "react";
-import easybankImage from "../image/easybank-landing-page-image.png"
-import carentallImage  from "../image/rentalcars-image.png"
-import productMainPageImage from "../image/product-page-main.png"
+import easybankImage from "../image/easybank-landing-page-image.png";
+import carentallImage  from "../image/rentalcars-image.png";
+import productMainPageImage from "../image/product-page-main.png";
 import { FaGithub } from "react-icons/fa";
 import { FaEye } from "react-icons/fa"
 import { FaReact } from "react-icons/fa"

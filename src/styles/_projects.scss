@@ -65,6 +65,9 @@
 }
 @media(max-width:640px){
     .projects{
+        .projects-header{
+            padding: 2rem 0rem;
+        }
         .projects-body{
             grid-template-columns: 1fr;
         }
